@@ -9,16 +9,16 @@ del C:\HP-compiling\pelican\test\pelicanconf.py
 echo Test:Delete End
 echo Test:Copy Start
 
-xcopy C:\HP-Release\Home\site C:\HP-compiling\pelican\test /E /F
+xcopy C:\HP-Release\Japan-Enterprise\site C:\HP-compiling\pelican\test /E /F
 
 echo Test:Copy End
 echo Test:Start
 
 cd C:\HP-compiling\pelican\test
 pelican
-cd ./output 
+cd ./output
 
-echo Test:WEB Serves Start 
+echo Test:WEB Serves Start
 
 python -m http.server
 

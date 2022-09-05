@@ -12,7 +12,10 @@ DEFAULT_LANG = 'ja'
 DISPLAY_CATEGORIES_ON_MENU = None
 MENUITEMS = (
     ('Home', '/'),
-#     ('Resource', '/pages/resource.html'),
+    ('Resume', 'https://sunshubin.sb-hrms.com/'),
+    ('About', 'https://home.sb-hrms.com/pages/about.html'),
+    ('Resource', 'https://home.sb-hrms.com/pages/resource.html'),
+    ('Reference', 'https://github.com/SB-Japan/Enterprise/tree/main/Site/content/posts'),
 )
 
 # Feed generation is usually not desired when developing
